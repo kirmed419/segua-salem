@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SEGUA Mohamed Salem — Data Scientist & Statistician</title>
+<meta name="description" content="SEGUA Mohamed Salem — Data Scientist & Data Analyst. Master's graduate and State Engineer in Statistics (ENSSEA). Deep learning, computer vision, and decision-ready analytics." />
+
+<!-- Open Graph -->
+<meta property="og:title" content="SEGUA Mohamed Salem — Data Scientist & Statistician" />
+<meta property="og:description" content="Master's graduate and State Engineer in Statistics. Turning messy data into models, decisions, and deployed systems." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- grain + glow overlays -->
+<div class="grain" aria-hidden="true"></div>
+<canvas id="field" aria-hidden="true"></canvas>
+
+<!-- progress bar -->
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- cursor dot -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<!-- ░░ NAV ░░ -->
+<header class="nav" id="nav">
+  <a href="#top" class="brand">
+    <span class="brand-mark">SM</span>
+    <span class="brand-name">SEGUA&nbsp;Mohamed&nbsp;Salem</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#work"><span class="idx">01</span> Work</a>
+    <a href="#about"><span class="idx">02</span> About</a>
+    <a href="#path"><span class="idx">03</span> Path</a>
+    <a href="#skills"><span class="idx">04</span> Skills</a>
+    <a href="#contact" class="nav-cta">Let's talk</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- ░░ HERO ░░ -->
+<section class="hero">
+  <div class="hero-meta">
+    <span class="dot"></span> Open to data roles · 2026
+    <span class="sep">/</span> Algiers, Algeria
+  </div>
+
+  <h1 class="hero-title">
+    <span class="line" data-reveal>I find the <em>signal</em></span>
+    <span class="line" data-reveal>in the <em>noise.</em></span>
+  </h1>
+
+  <p class="hero-sub" data-reveal>
+    Data Scientist &amp; Data Analyst — Master's graduate and State Engineer in
+    Statistics from ENSSEA. I build deep-learning systems, segment customers,
+    and turn statistics into decisions people can act on.
+  </p>
+
+  <div class="hero-actions" data-reveal>
+    <a href="#work" class="btn btn-primary">
+      See selected work
+      <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <a href="#contact" class="btn btn-ghost">Get in touch</a>
+  </div>
+
+  <!-- live stat strip -->
+  <div class="stat-strip" data-reveal>
+    <div class="stat">
+      <span class="stat-num" data-count="19" data-suffix=".5">0</span>
+      <span class="stat-label">top thesis / 20</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="3" data-suffix="">0</span>
+      <span class="stat-label">internships</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="3" data-suffix="">0</span>
+      <span class="stat-label">languages</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="11" data-suffix="+">0</span>
+      <span class="stat-label">tools &amp; frameworks</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <span>scroll</span>
+    <i></i>
+  </div>
+</section>
+
+<!-- ░░ MARQUEE ░░ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Python</span><span class="bullet">●</span>
+    <span>PyTorch</span><span class="bullet">●</span>
+    <span>TensorFlow</span><span class="bullet">●</span>
+    <span>YOLO</span><span class="bullet">●</span>
+    <span>ResNet18</span><span class="bullet">●</span>
+    <span>scikit-learn</span><span class="bullet">●</span>
+    <span>R</span><span class="bullet">●</span>
+    <span>SQL</span><span class="bullet">●</span>
+    <span>Pandas</span><span class="bullet">●</span>
+    <span>NumPy</span><span class="bullet">●</span>
+    <span>Power BI</span><span class="bullet">●</span>
+    <span>Time Series</span><span class="bullet">●</span>
+    <!-- duplicate for seamless loop -->
+    <span>Python</span><span class="bullet">●</span>
+    <span>PyTorch</span><span class="bullet">●</span>
+    <span>TensorFlow</span><span class="bullet">●</span>
+    <span>YOLO</span><span class="bullet">●</span>
+    <span>ResNet18</span><span class="bullet">●</span>
+    <span>scikit-learn</span><span class="bullet">●</span>
+    <span>R</span><span class="bullet">●</span>
+    <span>SQL</span><span class="bullet">●</span>
+    <span>Pandas</span><span class="bullet">●</span>
+    <span>NumPy</span><span class="bullet">●</span>
+    <span>Power BI</span><span class="bullet">●</span>
+    <span>Time Series</span><span class="bullet">●</span>
+  </div>
+</div>
+
+<!-- ░░ WORK ░░ -->
+<section class="section" id="work">
+  <div class="section-head" data-reveal>
+    <span class="kicker"><span class="idx">01</span> Selected work</span>
+    <h2 class="section-title">Four problems<br />worth solving.</h2>
+    <p class="section-lead">
+      From deep-learning systems to customer segmentation and econometric
+      forecasting — the problem, the method, and the result that mattered.
+    </p>
+  </div>
+
+  <div class="work-list">
+
+    <!-- project 1 -->
+    <article class="work" data-reveal>
+      <div class="work-index">01</div>
+      <div class="work-body">
+        <div class="work-tags">
+          <span>Deep Learning · Computer Vision</span><span>YOLO</span><span>ResNet18</span><span>FastOCR</span>
+        </div>
+        <h3 class="work-name">Reading the Algerian car fleet, frame by frame</h3>
+        <p class="work-desc">
+          Master's thesis: an end-to-end system that detects vehicles, reads license
+          plates, and identifies the car brand from video. Designed, trained, tested
+          and deployed as a working intelligent system for the Algerian fleet.
+        </p>
+        <div class="work-metrics">
+          <div><b>18.5<small>/20</small></b><span>thesis grade</span></div>
+          <div><b>3-in-1</b><span>detect · OCR · brand</span></div>
+          <div><b>Deployed</b><span>full pipeline</span></div>
+        </div>
+      </div>
+      <a class="work-link" href="#" aria-label="View vehicle recognition thesis">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </article>
+
+    <!-- project 2 -->
+    <article class="work" data-reveal>
+      <div class="work-index">02</div>
+      <div class="work-body">
+        <div class="work-tags">
+          <span>AI SaaS · Startup</span><span>NLP</span><span>GRC</span>
+        </div>
+        <h3 class="work-name">Compliance, read and reasoned by AI</h3>
+        <p class="work-desc">
+          Startup thesis: an AI-powered GRC (Governance, Risk &amp; Compliance) SaaS
+          platform that automates regulatory-compliance analysis. Took it from
+          modeling through implementation, testing and deployment.
+        </p>
+        <div class="work-metrics">
+          <div><b>19.5<small>/20</small></b><span>thesis grade</span></div>
+          <div><b>SaaS</b><span>end-to-end</span></div>
+          <div><b>Incubated</b><span>ENSSEA program</span></div>
+        </div>
+      </div>
+      <a class="work-link" href="#" aria-label="View GRC SaaS startup thesis">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </article>
+
+    <!-- project 3 -->
+    <article class="work" data-reveal>
+      <div class="work-index">03</div>
+      <div class="work-body">
+        <div class="work-tags">
+          <span>Unsupervised ML</span><span>Clustering</span><span>EDA</span>
+        </div>
+        <h3 class="work-name">Segmenting points of sale at Djezzy</h3>
+        <p class="work-desc">
+          Data science internship at Djezzy: built clustering models to segment
+          points of sale and sharpen commercial distribution strategy, backed by
+          exploratory analysis of large-scale sales and geolocation data.
+        </p>
+        <div class="work-metrics">
+          <div><b>18<small>/20</small></b><span>internship grade</span></div>
+          <div><b>Clustering</b><span>POS segments</span></div>
+          <div><b>Geo + sales</b><span>large volume</span></div>
+        </div>
+      </div>
+      <a class="work-link" href="#" aria-label="View Djezzy POS segmentation project">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </article>
+
+    <!-- project 4 -->
+    <article class="work" data-reveal>
+      <div class="work-index">04</div>
+      <div class="work-body">
+        <div class="work-tags">
+          <span>Econometrics · Time Series</span><span>VAR</span><span>ARIMA</span>
+        </div>
+        <h3 class="work-name">Forecasting inflation in Algeria</h3>
+        <p class="work-desc">
+          A comparative study of VAR and ARIMA models to forecast Algerian inflation
+          — diagnosing each model's behaviour, benchmarking performance, and
+          selecting the one that actually held up out of sample.
+        </p>
+        <div class="work-metrics">
+          <div><b>VAR vs ARIMA</b><span>head-to-head</span></div>
+          <div><b>Inflation</b><span>Algeria</span></div>
+          <div><b>Best-fit</b><span>model selected</span></div>
+        </div>
+      </div>
+      <a class="work-link" href="#" aria-label="View inflation forecasting project">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ░░ ABOUT ░░ -->
+<section class="section about" id="about">
+  <div class="about-grid">
+    <div class="about-text">
+      <span class="kicker" data-reveal><span class="idx">02</span> About</span>
+      <h2 class="about-title" data-reveal>
+        A statistician who likes to ship —
+        from the math underneath
+        to the <em>system that runs.</em>
+      </h2>
+      <div class="about-copy" data-reveal>
+        <p>
+          I'm a Master's graduate in Statistics &amp; Data Science and a State
+          Engineer in Statistics from ENSSEA in Algiers. My training is the rigorous
+          side — econometrics, modeling, experimental design — but my favourite work
+          is taking that rigour all the way to something deployed.
+        </p>
+        <p>
+          Across two theses and an internship at Djezzy, I've built a deep-learning
+          system that reads the road, an AI compliance platform, and clustering
+          models that reshaped a distribution strategy. I care that a result holds
+          up out of sample, and that a non-technical reader still follows the story.
+        </p>
+        <p>
+          Outside the models, I've guided tourists, coordinated logistics and
+          designed visuals — which is probably why I can't help making the charts
+          look good too.
+        </p>
+      </div>
+
+      <ul class="about-facts" data-reveal>
+        <li><span>Now</span> MSc Statistics &amp; Data Science + State Engineer, ENSSEA · 2026</li>
+        <li><span>Focus</span> Deep learning · computer vision · clustering · time series</li>
+        <li><span>Stack</span> Python · R · SQL · PyTorch · TensorFlow · Power BI</li>
+        <li><span>Lang</span> العربية (native) · Français (C2) · English (C1)</li>
+      </ul>
+    </div>
+
+    <!-- portrait + interactive regression plot -->
+    <div class="about-viz" data-reveal>
+      <figure class="portrait">
+        <img src="photo.png" alt="Portrait of SEGUA Mohamed Salem" loading="lazy" />
+        <figcaption>SEGUA Mohamed Salem — Algiers, Algeria</figcaption>
+      </figure>
+      <div class="viz-card">
+        <div class="viz-head">
+          <span class="viz-title">fig.1 — fit vs. noise</span>
+          <span class="viz-r">R² = <b id="r2">0.00</b></span>
+        </div>
+        <svg id="plot" viewBox="0 0 400 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Animated scatter plot with a regression line">
+          <!-- grid -->
+          <g class="grid" id="grid"></g>
+          <!-- axes -->
+          <line class="axis" x1="40" y1="280" x2="380" y2="280" />
+          <line class="axis" x1="40" y1="20" x2="40" y2="280" />
+          <!-- regression line -->
+          <line class="regline" id="regline" x1="40" y1="280" x2="40" y2="280" />
+          <!-- points injected by JS -->
+          <g id="points"></g>
+        </svg>
+        <div class="viz-foot">
+          <span>n = 48 observations</span>
+          <span>hover to perturb →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ PATH (experience + education) ░░ -->
+<section class="section path" id="path">
+  <div class="section-head" data-reveal>
+    <span class="kicker"><span class="idx">03</span> The path so far</span>
+    <h2 class="section-title">Study,<br />then ship.</h2>
+    <p class="section-lead">
+      A statistics education at ENSSEA, sharpened by internships where the models
+      met real, messy, deadline-bound data.
+    </p>
+  </div>
+
+  <div class="timeline">
+
+    <div class="tl-item" data-reveal>
+      <div class="tl-when">Feb – May 2026</div>
+      <div class="tl-main">
+        <h3>Data Scientist Intern <span class="tl-org">· Djezzy</span></h3>
+        <p>
+          Built unsupervised clustering models to segment points of sale and
+          optimize commercial distribution, on top of exploratory analysis of
+          large-scale sales &amp; geolocation data. <em>Graded 18/20.</em>
+        </p>
+      </div>
+    </div>
+
+    <div class="tl-item" data-reveal>
+      <div class="tl-when">2024 – 2026</div>
+      <div class="tl-main">
+        <h3>MSc Statistics &amp; Data Science · State Engineer <span class="tl-org">· ENSSEA</span></h3>
+        <p>
+          Master's in Statistics &amp; Data Science and State Engineer in Statistics
+          and Planning. Two graduation theses: a deep-learning vehicle-recognition
+          system (18.5/20) and an AI-powered GRC SaaS platform (19.5/20).
+        </p>
+      </div>
+    </div>
+
+    <div class="tl-item" data-reveal>
+      <div class="tl-when">Sept – Oct 2025</div>
+      <div class="tl-main">
+        <h3>Risk Prevention Intern <span class="tl-org">· Organisme de Prévention des Risques (BTP &amp; Hydraulique)</span></h3>
+        <p>
+          Applied data analysis to surface safety trends and risk factors on
+          construction sites, and built reports &amp; visualizations to support
+          safety-management decisions.
+        </p>
+      </div>
+    </div>
+
+    <div class="tl-item" data-reveal>
+      <div class="tl-when">2025 – 2026</div>
+      <div class="tl-main">
+        <h3>Entrepreneurship &amp; Startup Program <span class="tl-org">· ENSSEA Incubator</span></h3>
+        <p>
+          Business planning, digital marketing, financial analysis for startups,
+          IP &amp; prototyping, and AI in startups — the runway behind the GRC SaaS.
+        </p>
+      </div>
+    </div>
+
+    <div class="tl-item" data-reveal>
+      <div class="tl-when">2023 – 2025</div>
+      <div class="tl-main">
+        <h3>Tour Guide · Graphic Designer · Logistics <span class="tl-org">· ACCESS TOURISME</span></h3>
+        <p>
+          Led tours, coordinated travel logistics and itineraries, and designed
+          promotional visuals — communication and operations under real pressure.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ░░ SKILLS ░░ -->
+<section class="section skills" id="skills">
+  <div class="section-head" data-reveal>
+    <span class="kicker"><span class="idx">04</span> Toolkit</span>
+    <h2 class="section-title">What I reach for.</h2>
+    <p class="section-lead">
+      The honest inventory, grouped by what I'd actually trust each tool with.
+    </p>
+  </div>
+
+  <div class="skill-grid">
+    <div class="skill-col" data-reveal>
+      <h3>Languages &amp; data</h3>
+      <ul>
+        <li>Python <i class="bar" style="--v:95%"></i></li>
+        <li>R <i class="bar" style="--v:85%"></i></li>
+        <li>SQL <i class="bar" style="--v:82%"></i></li>
+        <li>Pandas / NumPy <i class="bar" style="--v:92%"></i></li>
+        <li>Power BI / Excel Stat <i class="bar" style="--v:80%"></i></li>
+      </ul>
+    </div>
+    <div class="skill-col" data-reveal>
+      <h3>ML, DL &amp; vision</h3>
+      <ul>
+        <li>scikit-learn <i class="bar" style="--v:90%"></i></li>
+        <li>PyTorch <i class="bar" style="--v:85%"></i></li>
+        <li>TensorFlow <i class="bar" style="--v:80%"></i></li>
+        <li>YOLO / ResNet18 / OCR <i class="bar" style="--v:82%"></i></li>
+        <li>Clustering &amp; time series <i class="bar" style="--v:88%"></i></li>
+      </ul>
+    </div>
+    <div class="skill-col" data-reveal>
+      <h3>Communicate &amp; design</h3>
+      <ul>
+        <li>Data storytelling <i class="bar" style="--v:90%"></i></li>
+        <li>Power BI dashboards <i class="bar" style="--v:84%"></i></li>
+        <li>Photoshop / Canva <i class="bar" style="--v:85%"></i></li>
+        <li>PowerPoint <i class="bar" style="--v:88%"></i></li>
+        <li>Video editing <i class="bar" style="--v:75%"></i></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ CONTACT ░░ -->
+<section class="section contact" id="contact">
+  <div class="contact-inner" data-reveal>
+    <span class="kicker"><span class="idx">05</span> Contact</span>
+    <h2 class="contact-title">
+      Got a hard question<br />hiding in your data?
+    </h2>
+    <a href="mailto:seguamohamedsalem@gmail.com" class="contact-mail">
+      seguamohamedsalem@gmail.com
+      <svg viewBox="0 0 24 24" width="28" height="28"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/mohamed-salem-segua" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="tel:+213774460364">+213 774 460 364</a>
+      <a href="mailto:seguamohamedsalem@gmail.com">Email</a>
+      <a href="SEGUA-Mohamed-Salem-CV.pdf" target="_blank" rel="noopener">Résumé ↓</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>© 2026 SEGUA Mohamed Salem</span>
+  <span class="foot-mid">Built from scratch — no template.</span>
+  <a href="#top" class="foot-top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
